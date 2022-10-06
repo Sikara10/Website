@@ -11,11 +11,11 @@ const App = ()=>{
     return(<>
     <Header />
     <Routes>
-        <Route path="/home" element={<Home />}  />      
-        <Route path="/services" element={<Services/>}  />
-        <Route path="/about" element={<About/>}  />      
-        <Route path="/contact" element={<Contact />}  />      
-        <Route path="/Website/" element={<Navigate to="/home" />} />
+        <Route path="sikara10.github.io/home" element={<Home />}  />      
+        <Route path="sikara10.github.io/services" element={<Services/>}  />
+        <Route path="sikara10.github.io/about" element={<About/>}  />      
+        <Route path="sikara10.github.io/contact" element={<Contact />}  />      
+        <Route path="sikara10.github.io/Website/" element={<Navigate to="/home" />} />
     </Routes>
     
     </>)

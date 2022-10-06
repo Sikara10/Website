@@ -1,3 +1,4 @@
+
 import React from "react";
 import { NavLink } from "react-router-dom";
 
@@ -7,7 +8,7 @@ const Header = () => {
       <div className="Header">
         <div className="container Head">
           <div>
-            <h3>Tech Giants</h3>
+            <h3>Squared Tech</h3>
           </div>
           <div className="Navbar">
             <ul>

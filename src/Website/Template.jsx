@@ -9,7 +9,7 @@ const Template = ({ text }) => {
           <div style={{ border: "none" }} className="card c1">
             <h1>{text}</h1>
             <br />
-            <h1 className="tech">Tech Giants</h1>
+            <h1 className="tech">Squared Tech</h1>
             <p className="my-3 text-muted" style={{ fontSize: "1rem" }}>
               We Are Team of taleted developer making websites
             </p>

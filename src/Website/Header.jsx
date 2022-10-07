@@ -8,35 +8,35 @@ const Header = () => {
       <div className="Header">
         <div className="container Head">
           <div>
-            <h3>Squared Tech</h3>
+            <h3>Squared Tech<sup style={{color:"orange"}}>2</sup></h3> 
           </div>
           <div className="Navbar">
             <ul>
               <NavLink
                 style={{ textDecoration: "none" }}
                 activeclassname="active"
-                to="/home"
+                to="sikara10.github.io/home"
               >
                 <li>Home</li>
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none" }}
                 activeclassname="active"
-                to="/services"
+                to="sikara10.github.io/services"
               >
                 <li>Services</li>
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none" }}
                 activeclassname="active"
-                to="/about"
+                to="sikara10.github.io/about"
               >
                 <li>About</li>
               </NavLink>
               <NavLink
                 style={{ textDecoration: "none" }}
                 activeclassname="active"
-                to="/contact"
+                to="sikara10.github.io/contact"
               >
                 <li>Contact</li>
               </NavLink>

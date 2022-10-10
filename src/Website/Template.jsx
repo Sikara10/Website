@@ -4,7 +4,6 @@ const Template = ({ text }) => {
 
   return (
     <>
-      
         <div className="content">
           <div style={{ border: "none" }} className="card c1">
             <h1>{text}</h1>
@@ -19,7 +18,6 @@ const Template = ({ text }) => {
             <img className="img1" src={web} alt="web" />
           </div>
         </div>
-      
     </>
   );
 };
